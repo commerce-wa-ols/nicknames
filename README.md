@@ -30,7 +30,7 @@ Array
 )
 ```
 
-Get nicknames for a given formal name.
+Get the formal name for a given nickname.
 
 ```php
 use CommerceWA\Nicknames\Nicknames();
@@ -76,8 +76,4 @@ Todo.
 
 ## Contributors
 
-Developed by [Cyrus Eftos](https://github.com/cyruseftos) for the [Department of Commerce](https://github.com/commerce-wa-ols)
-
-## License
-
-???
+Developed by [Cyrus Eftos](https://github.com/cyruseftos) at the [Department of Commerce](https://github.com/commerce-wa-ols)
