@@ -10,14 +10,12 @@ For example, "William" may appear in databases as "Bill", "Billy" or "Willie", a
 Get nicknames for a given formal name.
 
 ```php
-
 use CommerceWA\Nicknames\Nicknames();
 
 $nicknames = new Nicknames();
 $result = $nicknames->givenTo("William");
 
 print_r($result);
-
 ```
 The above example will output:
 
@@ -35,14 +33,12 @@ Array
 Get nicknames for a given formal name.
 
 ```php
-
 use CommerceWA\Nicknames\Nicknames();
 
 $nicknames = new Nicknames();
 $result = $nicknames->lookup("Becky");
 
 print_r($result);
-
 ```
 The above example will output:
 
