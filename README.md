@@ -1,18 +1,19 @@
-## Nicknames
+# Nicknames
 
 [![Code Climate](https://codeclimate.com/github/commerce-wa-ols/nicknames/badges/gpa.svg)](https://codeclimate.com/github/commerce-wa-ols/nicknames)
 
-This is a simple library that returns either an array of common nicknames for a provided name or the formal given name of a provided nickname.
-The library features common English diminutives (nicknames and shortened forms) of formal given names.
+Nicknames is a simple package that either returns an array of common nicknames for a provided name or returns an array of potential matches to a provided nickname. The data features common English diminutives, nicknames and shortened forms, of given names. 
 
-For example, "William" may appear in databases as "Bill", "Billy" or "Willie", and "Rebecca" as "Becki", "Becca" or "Becky".
+For example, "William" may appear in databases as "Bill" or "Willie", and "Rebecca" as "Becca" or "Becky". 
+
+The list of names is from [Diminutives.db](https://github.com/dtrebbien/diminutives.db) with some extra names added to the list from our sources. The idea behind the package has also taken heavy influence from the ruby gem [Nickname](https://github.com/bsimpson/Nickname) which also has some great information about other techniques for fuzzy matching strings.
 
 ## Usage
 
 Get nicknames for a given formal name.
 
 ```php
-use CommerceWA\Nicknames\Nicknames();
+use CommerceWA\Nicknames\Nicknames;
 
 $nicknames = new Nicknames();
 $result = $nicknames->givenTo("William");
@@ -35,7 +36,7 @@ Array
 Get the formal name for a given nickname.
 
 ```php
-use CommerceWA\Nicknames\Nicknames();
+use CommerceWA\Nicknames\Nicknames;
 
 $nicknames = new Nicknames();
 $result = $nicknames->lookup("Becky");
