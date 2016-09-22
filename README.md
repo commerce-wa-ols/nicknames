@@ -76,4 +76,4 @@ Todo.
 
 ## Contributors
 
-Developed by [Cyrus Eftos](https://github.com/cyruseftos) at the [Department of Commerce](https://github.com/commerce-wa-ols)
+Developed by [Cyrus Eftos](https://github.com/cyruseftos) at the [Department of Commerce](https://github.com/commerce-wa-ols).
