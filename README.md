@@ -1,5 +1,7 @@
 ## Nicknames
 
+[![Code Climate](https://codeclimate.com/github/commerce-wa-ols/nicknames/badges/gpa.svg)](https://codeclimate.com/github/commerce-wa-ols/nicknames)
+
 This is a simple library that returns either an array of common nicknames for a provided name or the formal given name of a provided nickname.
 The library features common English diminutives (nicknames and shortened forms) of formal given names.
 
