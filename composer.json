@@ -1,0 +1,25 @@
+{
+    "name": "commerce-wa-ols/nicknames",
+    "type": "library",
+    "description": "Find nicknames for a given name or perform a reverse search on a nickname.",
+    "keywords": ["nickname", "nicknames", "diminutives"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cyrus Eftos",
+            "email": "cyrus.eftos@commerce.wa.gov.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~5.6 || ~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CommerceWA\\Nicknames\\": "src/"
+        }
+    }
+}
