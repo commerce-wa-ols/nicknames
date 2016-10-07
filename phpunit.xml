@@ -1,4 +1,7 @@
-<phpunit colors="true" forceCoversAnnotation="true" strict="true">
+<phpunit
+    colors="true"
+    forceCoversAnnotation="true"
+    bootstrap="./vendor/autoload.php">
     <testsuite name="Unit Tests">
         <directory>./tests</directory>
     </testsuite>
