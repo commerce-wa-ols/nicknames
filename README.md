@@ -1,6 +1,7 @@
 # Nicknames
 
 [![Code Climate](https://codeclimate.com/github/commerce-wa-ols/nicknames/badges/gpa.svg)](https://codeclimate.com/github/commerce-wa-ols/nicknames)
+[![Build Status](https://travis-ci.org/commerce-wa-ols/nicknames.svg?branch=master)](https://travis-ci.org/commerce-wa-ols/nicknames)
 
 Nicknames is a simple package that either returns an array of common nicknames for a provided name or returns an array of potential matches to a provided nickname. The data features common English diminutives, nicknames and shortened forms, of given names. 
 
