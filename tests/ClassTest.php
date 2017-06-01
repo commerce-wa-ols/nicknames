@@ -1,41 +1,40 @@
 <?php
 
-namespace CommerceWA\Nicknames;
+namespace CommerceWA\Utilities\Nicknames\Tests;
 
+use CommerceWA\Utilities\Nicknames;
 use PHPUnit_Framework_TestCase;
-use CommerceWA\Nicknames\Nicknames;
 
 class ClassTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * Verify basic behavior of getName().
+     * Verify basic behavior of Nicknames::givenTo().
      *
      * @test
-     * @covers ::__construct
      * @covers ::givenTo
-     * @covers ::getName
-     * @uses \CommerceWA\Nicknames\Nicknames
+     * @uses \CommerceWA\Utilities\Nicknames
      *
      * @return void
      */
-    public function testGetName()
+    public function testGivenToFunction()
     {
-        $nicknames = new Nicknames();
-        $result = $nicknames->givenTo("William");
-        $this->assertContains('willie', $result);
+        $this->assertContains('willie', Nicknames::givenTo('William'));
     }
-    // /**
-    //  * Finds nicknames for a given name.
-    //  *
-    //  * @api
-    //  * @param string $name Name used as key to find possible nicknames.
-    //  * @return array Array of potential nicknames.
-    //  */
-    // public function givenTo($name)
-    // {
-    //     if (isset($this->names[strtolower($name)])) {
-    //         return $this->names[strtolower($name)];
-    //     }
-    //     return false;
-    // }
+
+    /**
+     * Verify basic behavior of Nicknames::find().
+     *
+     * @test
+     * @covers ::find
+     * @uses \CommerceWA\Utilities\Nicknames
+     *
+     * @return void
+     */
+    public function testFindFunction()
+    {
+        $this->assertContains(
+          'william',
+          Nicknames::find('Willie')
+        );
+    }
 }

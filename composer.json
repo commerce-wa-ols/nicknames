@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CommerceWA\\Nicknames\\": "src/"
+            "CommerceWA\\Utilities\\": "src/"
         }
     }
 }

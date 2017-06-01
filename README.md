@@ -13,14 +13,11 @@ The list of names is from [Diminutives.db](https://github.com/dtrebbien/diminuti
 Get nicknames for a given formal name.
 
 ```php
-use CommerceWA\Nicknames\Nicknames;
+Nicknames::givenTo("William");use CommerceWA\Utilities\Nicknames;
 
-$nicknames = new Nicknames();
-$result = $nicknames->givenTo("William");
 
-print_r($result);
 ```
-The above example will output:
+The above example will return:
 
 ```php
 Array
@@ -36,14 +33,11 @@ Array
 Get the formal name for a given nickname.
 
 ```php
-use CommerceWA\Nicknames\Nicknames;
+use CommerceWA\Utilities\Nicknames;
 
-$nicknames = new Nicknames();
-$result = $nicknames->lookup("Becky");
-
-print_r($result);
+Nicknames::givenTo("Becky");
 ```
-The above example will output:
+The above example will return:
 
 ```php
 Array
@@ -73,9 +67,6 @@ execute the following command:
 composer require commerce-wa-ols/nicknames
 ```
 
-## Tests
-
-Todo.
 
 ## Contributors
 
