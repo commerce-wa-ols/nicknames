@@ -1,4 +1,4 @@
-# Nicknames
+# Nicknames1
 
 [![Code Climate](https://codeclimate.com/github/commerce-wa-ols/nicknames/badges/gpa.svg)](https://codeclimate.com/github/commerce-wa-ols/nicknames)
 [![Build Status](https://travis-ci.org/commerce-wa-ols/nicknames.svg?branch=master)](https://travis-ci.org/commerce-wa-ols/nicknames)
